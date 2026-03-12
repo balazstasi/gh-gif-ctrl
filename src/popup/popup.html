@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub GIF Controller</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup">
+    <h1 class="popup-title">🎬 GIF Controller</h1>
+    <p class="popup-subtitle">Control GIF playback on GitHub</p>
+
+    <div class="setting">
+      <label class="setting-label">
+        <input type="checkbox" id="autoPause" />
+        <span>Auto-pause GIFs on load</span>
+      </label>
+      <p class="setting-description">
+        GIFs start paused — click play to animate.
+      </p>
+    </div>
+
+    <div class="setting">
+      <label class="setting-label">
+        <span>Controls visibility</span>
+        <select id="controlsVisibility">
+          <option value="hover">Show on hover</option>
+          <option value="always">Always visible</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="setting">
+      <label class="setting-label">
+        <input type="checkbox" id="keyboardShortcuts" checked />
+        <span>Keyboard shortcuts</span>
+      </label>
+      <p class="setting-description">
+        Space: play/pause · ←→: prev/next frame · Home: rewind
+      </p>
+    </div>
+
+    <div class="popup-footer">
+      <span class="version">v1.0.0</span>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
