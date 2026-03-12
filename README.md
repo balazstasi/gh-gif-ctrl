@@ -16,6 +16,7 @@ A Chrome extension that gives you full playback controls for GIF images on GitHu
 
 ## How it Looks
 <img width="395" height="410" alt="image" src="https://github.com/user-attachments/assets/d0e5fe79-b473-4173-a0d5-828271353c9c" />
+
 https://github.com/user-attachments/assets/ecdc1567-5ac3-4ae4-bd17-8eab209b7215
 
 ## How It Works
