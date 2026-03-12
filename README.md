@@ -120,6 +120,12 @@ Click the extension icon to access settings:
 - **Shadow DOM** — Style isolation from GitHub CSS
 - **Manifest V3** — Modern Chrome extension API
 
+## Future Plans
+Possible future improvements are:
+1. Make the extension work on other sites too, potentially all GIFs
+2. Add additional controls/themeing options
+3. Extend current browser video controls with useful features
+
 ## License
 
 MIT
