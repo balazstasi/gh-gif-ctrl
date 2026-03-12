@@ -14,9 +14,13 @@ A Chrome extension that gives you full playback controls for GIF images on GitHu
 - **Settings** — Auto-pause on load, always-visible controls, toggle keyboard shortcuts
 - **Dynamic Detection** — Automatically picks up GIFs loaded via GitHub's Turbo navigation
 
+## How it Looks
+<img width="395" height="410" alt="image" src="https://github.com/user-attachments/assets/d0e5fe79-b473-4173-a0d5-828271353c9c" />
+https://github.com/user-attachments/assets/ecdc1567-5ac3-4ae4-bd17-8eab209b7215
+
 ## How It Works
 
-The extension uses [gifuct-js](https://github.com/matt-way/gifuct-js) to decode GIFs into individual frames, then renders them on a `<canvas>` element with full playback control. Controls are rendered in a Shadow DOM for complete style isolation from GitHub's CSS. A `MutationObserver` detects GIFs added dynamically (GitHub uses Turbo for navigation).
+The extension uses [gifuct-js](https://github.com/matt-way/gifuct-js) to decode GIFs into individual frames, then renders them on a `<canvas>` element with full playback control. Controls are rendered in a Shadow DOM for complete style isolation from GitHub's CSS. A `MutationObserver` detects GIFs added dynamically.
 
 ## Installation
 
