@@ -2,7 +2,7 @@
 
 A Chrome extension that gives you full playback controls for GIF images on GitHub — pause, rewind, scrub through frames, and more.
 
-[Chrome Extension Store LinK](https://chromewebstore.google.com/detail/github-gif-controller/flkminhchkimccacefodenpdbdaadgde?authuser=0&hl=en)
+[Chrome Extension Store Link](https://chromewebstore.google.com/detail/github-gif-controller/flkminhchkimccacefodenpdbdaadgde?authuser=0&hl=en)
 
 ## Features
 
